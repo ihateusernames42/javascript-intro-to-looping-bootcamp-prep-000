@@ -24,6 +24,6 @@ function doWhileLoop(a){
  do {
    a.pop()
  }
- while(a.length>1 && maybeTrue;
+ while(a.length>1 && maybeTrue();)
  return a
 }
