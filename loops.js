@@ -1,4 +1,4 @@
-var function forLoop(a){
+function forLoop(a){
   for (var i = 0;i<25;i++){
     if (i===1) {
       a.push("I am 1 strange loop.")
