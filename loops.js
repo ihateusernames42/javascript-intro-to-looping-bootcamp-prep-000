@@ -20,3 +20,10 @@ function whileLoop(n){
 function maybeTrue() {
   return Math.random() >= 0.5
 }
+function doWhileLoop(a){
+ do {
+   a.pop()
+ }
+ while(a.length>0 && maybeTrue())
+ return a
+}
